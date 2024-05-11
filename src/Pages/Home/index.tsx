@@ -12,8 +12,7 @@ import SFIMG2 from '../../assets/Group 24.png';
 import newsletter from '../../assets/hp-newsletter-card 1.png';
 import { Link } from 'react-router-dom';
 
-
- const Home = () => {
+export default function Home():any{
     return(
         <>
             <Menu/>
@@ -103,6 +102,4 @@ import { Link } from 'react-router-dom';
             <Footer/>
         </>
     )
- }
-
- export default Home;
+}
