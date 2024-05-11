@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Medula+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Medula+One&display=swap');
+
+.mainL{
+    background-color: #CCFFEC;
+}
+.headerL, .textBoldL{
+    width: 90vw;
+    display: flex;
+    margin-left: 17px;
+    padding-top: 20px;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.textBoldL{
+    margin-bottom: 20px;
+    color:#558919;
+}
+
+
+
+.formsL{
+    width: 90vw;
+    margin: 0 auto;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    background: linear-gradient(180deg, #4AB649 0%, #CCFFEC 100%);
+    border-radius: 30px 30px 0px 0px;
+
+
+}
+.titleL{
+    font-family: Medula One;
+    color:#558919;
+    font-size: 64px;
+    font-weight: 400;
+    line-height: 64.51px;
+    text-align: left;
+
+}
+.salesforceIconL{
+    width: 80px;
+    height: 55px;
+    top: 24px;
+    left: 321px;
+    gap: 0px;
+    opacity: 0px;    
+}
+
+.textFormL{
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24.2px;
+    margin-bottom: 20px;
+    color: #CCFFEC;
+
+}
+
+.tinyTextL{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.buttonConL{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 48px;
+}
+
+.grayTextL{
+    color:#50685f;
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 35px;
+    text-align: center;
+    margin-top: 20px;
+
+}
+
+.whiteTextL{
+    color:#CCFFEC;
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 4px;
+    margin-top: 20px;
+}
+
+
+.RjL {
+    width: 90vw;
+    margin-top: 30px;
+
+}
+
+.rjImagL{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+
+.txtImgL{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    justify-content: center;
+    
+}
+
+.textBottomL{
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 30px;
+    padding-right: 15px;
+    width: 90vw;
+    background: #107514;
+    margin: 0 auto;
+}
+
+ul{
+    display: flex;
+    flex-direction: column;
+    padding-left: 15px;
+    padding-top: 15px;
+    font-family: Inter;
+    font-size: 15px;
+    line-height: 18.15px;
+    text-align: left;
+    row-gap: 3px;
+    color: #CCFFEC;
+}
+
+h4{
+    margin-top: 50px;
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 18.15px;
+    text-align: right;
+    color: #50685f;
+    
+
+}
+
+.buttonVerde{
+    all: unset;
+    width: 165px;
+    height: 46px;
+    top: 526px;
+    left: 131px;
+    border-radius: 148px;
+    border: 2px;
+    background: #107514;
+    color: white;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29.05px;
+    text-align: center;
+
+}
+
+#fromsContent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.verdeIntro{
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 25px;
+    text-align: left;
+    color: #107514;
+
+}
+
+
+.inputVerde {
+    all: unset;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    background: #1075145E;
+    width: 80vw;
+    height: 50px;
+    border-radius: 148px;
+    opacity: 0px;
+    border: 4px solid #107514;
+    }
+
+::placeholder{
+    padding-left: 15px;
+    color: #CCFFEC;
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 18.15px;
+    text-align: left;
+
+}

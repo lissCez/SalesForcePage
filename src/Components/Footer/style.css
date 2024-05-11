@@ -1,0 +1,55 @@
+#footer{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: #1E5B5A;
+    background-color: white;
+}
+
+#info{
+    display: flex;
+    flex-direction: column;
+}
+
+#about{
+    display: flex;
+    flex-direction: column;
+}
+
+#help{
+    display: flex;
+    flex-direction: column;
+}
+
+.github{
+    display: flex;
+    align-items: center;
+    height: 50%;
+    margin-bottom: 9%;
+    gap: 10px;
+}
+
+.link .linkinho, #about a ,#help a, .icon{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 50%;
+    text-decoration: none;
+    color: #1E5B5A;
+}
+
+.github a {
+    text-decoration: none;
+    color: #1E5B5A;
+}
+
+.github img{
+    width: 80%;
+    background-color: #1E5B5A;
+    border-radius: 100%;
+}
+
+section h1{
+    font-size: 100%;
+}

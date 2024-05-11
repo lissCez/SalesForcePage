@@ -1,0 +1,262 @@
+@import url('https://fonts.googleapis.com/css2?family=Medula+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Medula+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+.Link{
+    text-decoration: none;
+    color: #fff;
+    font-size: 30px;
+}
+
+.corpo{
+    background-color: #FEEEDE;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.titulo{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 80%;
+    color: #1E5B5A;
+    padding-left: 5%;
+    height: 580px;
+}
+
+#textao{
+    font-family: Rubik;
+    font-size: 90px;
+    font-weight: 1000;
+    display: flex;
+    text-align: left; 
+    line-height: 100px;
+}
+
+#textinho{
+    font-family: Rubik;
+    font-size: 20px;
+    font-weight: 200;
+    display: flex;
+    text-align: left;
+    line-height: 50px;
+}
+.botao01{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+#botao1{
+    width: 100%;
+    background-color: #8DB279;
+    color: #fff;
+    border: none;
+    border-radius: 110px;
+    font-family: Medula One;
+    font-size: 28px;
+    padding: 20px;
+    font-weight: 100;
+    text-decoration: none;
+}
+
+#sfimg2{
+    display: flex;
+    justify-content: center;
+}
+
+#img2{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 60%;
+}
+
+#cartoes{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.cartoes1, .cartoes2{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 40px;
+}
+
+.cartao{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    background-color: #8DB279;
+    color: #fff;
+    margin-bottom: 20px;
+    border-radius: 30px;
+    width: 90%;
+    font-family: Medula One;
+}
+
+.texto{
+    padding-left: 15px;
+    padding-top: 0px;
+    padding-bottom: 10px;
+    padding-right: 3px;
+}
+
+h3{
+    font-size: 15px;
+    font-weight: 100;
+}
+
+.assistirdmo{
+    color: #fff;
+    text-decoration: underline;
+    padding-bottom: 20px;
+}
+
+.sfimg{
+    padding-left:10px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-right: 10px;
+}
+
+#img5{
+    width: 100%;
+}
+
+.dbaixoimg{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 30px;
+    background-color: #172832;
+}
+
+#gradiente{
+    width: 80%;
+    background-image: linear-gradient(to bottom, #153B40, #172832);
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.divisor{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
+
+#botao2{
+    width: 60%;
+    background-color: #35633E;
+    color: #fff;
+    border: none;
+    border-radius: 110px;
+    font-family: Medula One;
+    font-size: 110%;
+    padding: 15px;
+    font-weight: 100;
+    margin: 30px;
+}
+
+#fonte1{
+    color:#A5C6BB;
+    font-family: Inter;
+    font-size: 35px;
+    font-weight: 400;
+    text-align: center;
+}
+
+#fonte2{
+    color:#fff;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 100;
+    text-align: left;
+}
+
+#fonte3{
+    color:#05FFAC;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 800;
+    text-align: center;
+}
+
+#fonte4{
+    color:#fff;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 100;
+    text-align: center;
+    width: 90%;
+}
+
+#grupoIndustrias{
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    padding-bottom: 50px;
+}
+
+#bfFooter{
+    background-color: #fff;
+}
+
+.perguntas{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: #1E5B5A;
+    font-family: Rubik;
+    font-size: 3vw;
+    font-weight: 1000;
+    display: flex;
+    text-align: center;
+}
+
+#imgnlpai{
+    display: flex;
+    justify-content: center;
+}
+
+#imgnl{
+    width: 50%;
+}
+
+#botao03{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+
+#botao3 a{
+    color: #fff;
+    text-decoration: none;
+}
+
+#botao3{
+    width: 40%;
+    background-color: #35633E;
+    color: #fff;
+    border: none;
+    border-radius: 110px;
+    font-size: 110%;
+    padding: 10px;
+    font-weight: bold;
+    margin: 10px;
+}
+
+
+@media only screen and (max-width: 800px) {
+    .cartoes1, .cartoes2{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        gap: 20px;
+    }
+}

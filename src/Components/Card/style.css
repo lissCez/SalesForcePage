@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Medula+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Medula+One&display=swap');
+
+.img{
+    border-radius: 0px 75px 0px 75px;
+    width: 350px;
+    height: 350px;
+    margin-bottom: 10px;
+}
+
+.container{
+    width: 350px;
+    height: 198px;
+    border-radius: 0px 0px 50px 50px;
+    background-color: #80CEE5;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 40px;
+    box-shadow: 10px 10px 20px #032E61;
+    padding-bottom: 10px;
+}
+
+.icone{
+    width: 50px;
+    height: 50px;
+    margin-left: 15px;
+}
+
+.agah1, .agah4{
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19.36px;
+    text-align: center;
+    color: white;
+}
+
+
+.principal{
+    margin-left: 20px;
+    margin: 0 auto;
+    padding-top: 45px;
+}
