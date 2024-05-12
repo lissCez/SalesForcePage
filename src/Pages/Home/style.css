@@ -2,10 +2,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Medula+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
 
-body{
-    background-color: #00000000;
-}
-
 .Link{
     text-decoration: none;
     color: #fff;
@@ -26,7 +22,7 @@ body{
     width: 80%;
     color: #1E5B5A;
     padding-left: 5%;
-    height: 580px;
+    height: 58%;
 }
 
 #textao{
@@ -34,8 +30,8 @@ body{
     font-size: 90px;
     font-weight: 1000;
     display: flex;
-    text-align: left; 
-    line-height: 100px;
+    text-align: left;
+    width: 80%;
 }
 
 #textinho{
@@ -44,7 +40,7 @@ body{
     font-weight: 200;
     display: flex;
     text-align: left;
-    line-height: 50px;
+    line-height: 100%;
 }
 
 .botao01{
@@ -256,20 +252,11 @@ h3{
     margin: 10px;
 }
 
-
 @media only screen and (max-width: 800px) {
     .cartoes1, .cartoes2{
         display: flex;
         align-items: center;
         flex-direction: column;
         gap: 20px;
-    }
-
-    #textao{
-        line-height: 70px;
-    }
-    
-    #textinho{
-        line-height: 70px;
     }
 }

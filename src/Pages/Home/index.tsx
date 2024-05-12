@@ -1,4 +1,4 @@
-import './style.css';
+import '../Home/style.css';
 import Footer from '../../Components/Footer';
 import Menu from '../../Components/Menu';
 import SFIMG3 from '../../assets/php-products-service-generic 1.png';
@@ -12,7 +12,7 @@ import SFIMG2 from '../../assets/Group 24.png';
 import newsletter from '../../assets/hp-newsletter-card 1.png';
 import { Link } from 'react-router-dom';
 
-export default function Home():any{
+const Home: React.FC = () => {
     return(
         <>
             <Menu/>
@@ -102,4 +102,6 @@ export default function Home():any{
             <Footer/>
         </>
     )
-}
+};
+
+export default Home;

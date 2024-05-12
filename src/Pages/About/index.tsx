@@ -1,5 +1,6 @@
 import Card from "../../Components/Card";
 import Menu from "../../Components/Menu";
+import "../About/style.css";
 
 export const About = () => {
     return (
