@@ -1,6 +1,7 @@
+import React from 'react';
 import '../Home/style.css';
 import Footer from '../../Components/Footer';
-import Menu from '../../Components/Menu';
+import Card_principal from '../../Components/Card_principal/Card_principal';
 import SFIMG3 from '../../assets/php-products-service-generic 1.png';
 import SFIMG4 from '../../assets/php-products-sales-generic 2.png';
 import SFIMG5 from '../../assets/fundo 1.png';
@@ -10,12 +11,25 @@ import grupo3 from '../../assets/Group 19.png';
 import grupo4 from '../../assets/Group 20.png';
 import SFIMG2 from '../../assets/Group 24.png';
 import newsletter from '../../assets/hp-newsletter-card 1.png';
+import Menu from '../../Components/Header/Header';
 import { Link } from 'react-router-dom';
 
+const determineHeaderColor = (path: string): string => {
+    switch (path) {
+      case '/about':
+        return '#dbf0ff';
+      case '/Login':
+        return '#dbf0ff';
+      default:
+        return '#FFFFFF';
+    }
+};
+
 const Home: React.FC = () => {
-    return(
-        <>
-            <Menu/>
+  return (
+    
+    <>
+    <Menu backgroundColor={determineHeaderColor(window.location.pathname)} />
             <section className='corpo'>
                 <p className='titulo'>
                     <h1 id='textao'>Experimente o Salesforce Starter Suite gratuitamente.</h1>
@@ -27,45 +41,36 @@ const Home: React.FC = () => {
                 <div id='sfimg2'>
                     <img id='img2' src={SFIMG2}/>
                 </div>
-                    <section id='cartoes'>
-                        <div className="cartoes1">
-                            <div className="cartao">
-                                <div className="texto">
-                                    <h2>Pequenas empresas</h2>
-                                    <h3>Venda de forma mais inteligente e forneça suporte mais rápido em um único aplicativo.</h3>
-                                    <a className='assistirdmo' href='https://www.salesforce.com/br/solutions/small-business-solutions/overview/'>Assistir a demo</a>
-                                </div>
-                                <img className='sfimg' src={SFIMG3}/>
-                            </div>
-                            <div className="cartao">
-                                <div className="texto">
-                                    <h2>Pequenas empresas</h2>
-                                    <h3>Venda de forma mais inteligente e forneça suporte mais rápido em um único aplicativo.</h3>
-                                    <a className='assistirdmo' href='https://www.salesforce.com/br/solutions/small-business-solutions/overview/'>Assistir a demo</a>
-                                </div>
-                                <img className='sfimg' src={SFIMG4}/>
-                            </div>
-                        </div>
-                        <div className="cartoes2">
-                            <div className="cartao">
-                                <div className="texto">
-                                    <h2>Pequenas empresas</h2>
-                                    <h3>Venda de forma mais inteligente e forneça suporte mais rápido em um único aplicativo.</h3>
-                                    <a className='assistirdmo' href='https://www.salesforce.com/br/solutions/small-business-solutions/overview/'>Assistir a demo</a>
-                                </div>
-                                <img className='sfimg' src={SFIMG3}/>
-                            </div>
-                            <div className="cartao">
-                                <div className="texto">
-                                    <h2>Pequenas empresas</h2>
-                                    <h3>Venda de forma mais inteligente e forneça suporte mais rápido em um único aplicativo.</h3>
-                                    <a className='assistirdmo' href='https://www.salesforce.com/br/solutions/small-business-solutions/overview/'>Assistir a demo</a>
-                                </div>
-                                <img className='sfimg' src={SFIMG4}/>
-                            </div>
-                        </div>
-                    </section>
-
+                <section id='cartoes'>
+                    <div className="cartoes1">
+                    <Card_principal
+                        title="Pequenas empresas"
+                        description="Venda de forma mais inteligente e forneça suporte mais rápido em um único aplicativo."
+                        imgUrl={SFIMG3}
+                        demoLink="https://www.salesforce.com/br/solutions/small-business-solutions/overview/"
+                    />
+                    <Card_principal
+                        title="Pequenas empresas"
+                        description="Venda de forma mais inteligente e forneça suporte mais rápido em um único aplicativo."
+                        imgUrl={SFIMG4}
+                        demoLink="https://www.salesforce.com/br/solutions/small-business-solutions/overview/"
+                    />
+                    </div>
+                    <div className="cartoes2">
+                    <Card_principal
+                        title="Pequenas empresas"
+                        description="Venda de forma mais inteligente e forneça suporte mais rápido em um único aplicativo."
+                        imgUrl={SFIMG3}
+                        demoLink="https://www.salesforce.com/br/solutions/small-business-solutions/overview/"
+                    />
+                    <Card_principal
+                        title="Pequenas empresas"
+                        description="Venda de forma mais inteligente e forneça suporte mais rápido em um único aplicativo."
+                        imgUrl={SFIMG4}
+                        demoLink="https://www.salesforce.com/br/solutions/small-business-solutions/overview/"
+                    />
+                    </div>
+                </section>
                 <img id='img5' src={SFIMG5}/>
 
                 <section className='dbaixoimg'>
@@ -99,9 +104,9 @@ const Home: React.FC = () => {
                     </div>
                 </div>
             </section>
-            <Footer/>
-        </>
-    )
+      <Footer />
+    </>
+  );
 };
 
 export default Home;

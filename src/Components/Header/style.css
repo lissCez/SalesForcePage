@@ -16,8 +16,15 @@ html, body {
     justify-content: space-between;
     align-items: center;
     height: 80px;
-    background-color: #FEEEDE;
-    padding: 0 20px;
+    padding-top: 10px;
+}
+
+.butao:hover{
+    background-color: #339b998e;
+}
+
+.butao{
+    border: 2px solid #1E5B5A;
 }
 
 .botao, .butao {
@@ -26,7 +33,6 @@ html, body {
     justify-content: center;
     height: 30px;
     color: #1E5B5A;
-    border: 2px solid #1E5B5A;
     background-color: transparent;
     border-radius: 110px;
     font-family: 'Medula One', sans-serif;
@@ -34,17 +40,29 @@ html, body {
     padding: 10px;
     font-weight: 100;
     cursor: pointer;
+    width: 100px;
 }
 
 .sfimg, .salesforceIcon {
+    width: 95px;
+    height: 65px;
+}
+
+.sfimg, .salesforceIcon:hover {
     width: 100px;
     height: 70px;
 }
 
-.aHLCT, .bt {
+.aboutEhome{
+    display: flex;
+    justify-content: space-around;
+    width: 40%;
+}
+
+.aboutEhome, .aboutEhomeLinks, .bt {
     font-weight: 700;
     text-decoration: none;
-    font-size: 120%;
+    font-size: 100%;
 }
 
 a {
@@ -53,5 +71,5 @@ a {
 }
 
 a:hover {
-    color: #ffffff;
+    color: #339b99;
 }
