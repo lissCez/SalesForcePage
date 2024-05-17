@@ -1,11 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Medula+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Medula+One&display=swap');
 
-body{
-    background-color: 
-rgba(219, 240, 255, 1);
-}
-
 .header, .textBold{
     width: 90vw;
     display: flex;

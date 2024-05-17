@@ -13,17 +13,7 @@ import SFIMG2 from '../../assets/Group 24.png';
 import newsletter from '../../assets/hp-newsletter-card 1.png';
 import Menu from '../../Components/Header/Header';
 import { Link } from 'react-router-dom';
-
-const determineHeaderColor = (path: string): string => {
-    switch (path) {
-      case '/about':
-        return '#dbf0ff';
-      case '/Login':
-        return '#dbf0ff';
-      default:
-        return '#FFFFFF';
-    }
-};
+import determineHeaderColor from '../../Components/Header/determineHeaderColor';
 
 const Home: React.FC = () => {
   return (

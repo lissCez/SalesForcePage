@@ -1,13 +1,13 @@
 import "./style.css";
 import brasilia1 from "../../assets/brasilia.png";
 import Footer from '../../Components/Footer';
-import Menu from '../../Components/Menu';
-
+import Menu from '../../Components/Header/Header';
+import determineHeaderColor from "../../Components/Header/determineHeaderColor";
 
 const Teste10Minutos = () => {
   return (
     <main className="main">
-      <Menu/>
+      <Menu backgroundColor={determineHeaderColor(window.location.pathname)} />
       <div className="header">
         <h1 className="title">Cadastrar no teste de 10 minutos</h1>
       </div>

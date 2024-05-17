@@ -1,11 +1,12 @@
 import "./style.css";
 import Footer from "../../Components/Footer";
-import Menu from "../../Components/Menu";
+import Menu from "../../Components/Header/Header";
+import determineHeaderColor from "../../Components/Header/determineHeaderColor";
 
 const TesteUmMes = () => {
     return(
             <main className="main">
-            <Menu/>
+            <Menu backgroundColor={determineHeaderColor(window.location.pathname)} />
             <div className="header10">
                 <h1 className="title10">Cadastrar para o teste de 1 mês</h1>
             </div>

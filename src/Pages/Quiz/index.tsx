@@ -1,5 +1,5 @@
 import './style.css';
-import Menu from '../../Components/Menu';
+import Menu from '../../Components/Header/Header';
 import Footer from '../../Components/Footer';
 import industries from '../../assets/Frame 15.png';
 import opA from '../../assets/Button - A.png';
@@ -10,12 +10,13 @@ import coelhoImg from '../../assets/image 14.png';
 import respondeIcon from '../../assets/image 18.png';
 import imgBfFooter from '../../assets/image 15.png';
 import { Link } from 'react-router-dom';
+import determineHeaderColor from '../../Components/Header/determineHeaderColor';
 
 const Quiz = () => {
     return(
         <>
             <section className="fundoBorrado">
-                <Menu/>
+                <Menu backgroundColor={determineHeaderColor(window.location.pathname)} />
                 <p>Unleash Your Inner Wizard of Wisdom</p>
                 <h4>Embark on a Journey of Knowledge Exploration with Our Extensive Collection of Interactive Quizzes.</h4>
                 <p>Hi Andrew! what topic are you interested in?</p>

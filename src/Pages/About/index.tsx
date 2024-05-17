@@ -1,11 +1,24 @@
 import Card from "../../Components/Card";
-import Menu from "../../Components/Menu";
+import Menu from "../../Components/Header/Header";
 import "../About/style.css";
+
+const determineHeaderColor = (path: string): string => {
+    switch (path) {
+      case '/about':
+        return '#2c86c7';
+      case '/Login':
+        return '#2e5775';
+      case '/Teste10Minutos':
+        return '#112cc0'
+      default:
+        return '#992525';
+    }
+};
 
 export const About = () => {
     return (
         <>
-            <Menu />
+            <Menu backgroundColor={determineHeaderColor(window.location.pathname)} />
             <h1 className="Titulo">Quem somos</h1>
             <div className="cards">
                 <Card

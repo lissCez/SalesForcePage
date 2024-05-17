@@ -1,13 +1,14 @@
 import "./style.css";
 import rjImg from "../../assets/rjImg.png";
 import Footer from "../../Components/Footer";
-import Menu from "../../Components/Menu";
+import Menu from "../../Components/Header/Header";
+import determineHeaderColor from "../../Components/Header/determineHeaderColor";
 
 const Login = () => {
   return (
 
     <main className="mainL">
-      <Menu/>
+      <Menu backgroundColor={determineHeaderColor(window.location.pathname)} />
       <div className="headerL">
         <h1 className="titleL">Conecte-se</h1>
       </div>
