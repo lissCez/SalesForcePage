@@ -16,9 +16,9 @@ const Menu: React.FC<MenuProps> = ({ backgroundColor }) => {
           <img className="salesforceIcon" src={sfimg} alt="SalesforceIcon" />
         </Link>
       </div>
-      <div className="aHLCT">
-        <Link to="/about" className="aHLCT">About</Link>
-        <Link to="/" className="aHLCT">Home</Link>
+      <div className="aboutEhome">
+        <Link to="/about" className="aboutEhomeLinks">About</Link>
+        <Link to="/" className="aboutEhomeLinks">Home</Link>
       </div>
       <div className="botao">
         <button className="butao"><Link className='bt' to='/Login'>Log in</Link></button>

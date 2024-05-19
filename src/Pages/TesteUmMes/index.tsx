@@ -2,6 +2,7 @@ import "./style.css";
 import Footer from "../../Components/Footer";
 import Menu from "../../Components/Header/Header";
 import determineHeaderColor from "../../Components/Header/determineHeaderColor";
+import { Link } from "react-router-dom";
 
 const TesteUmMes = () => {
     return(
@@ -50,8 +51,6 @@ const TesteUmMes = () => {
                     <div className="terms10">
                         <p>Concentindo com este contrato você está de acordo com os</p>
                         <p><u><b>Termos de Politica de Privacidade</b></u> </p>
-
-                        <p>Eu aceito receber notificações em meu e-mail e SMS. Você pode retirar essa opção de ambas as plataformas quando quiser.</p>
                     </div>
 
                     <div className="buttonCon10">
@@ -60,10 +59,10 @@ const TesteUmMes = () => {
 
                     <div className="tinyText10">
                         <p className="blueText10">
-                            Tem uma conta?
+                            Já possui uma conta?
                             <b>
                             <br />
-                            <u>Conecte-se</u>
+                            <Link className='Link' to= '/Login'>Conecte-se</Link>
                             </b>
                         </p>
                     </div>

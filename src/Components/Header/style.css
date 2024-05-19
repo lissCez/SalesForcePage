@@ -5,7 +5,7 @@ html, body {
     margin: 0;
     padding: 0;
     width: 100%;
-    height: 100%;
+    height:100%;
     font-family: 'Inter', sans-serif;
     color: #1E5B5A;
 }
@@ -16,7 +16,7 @@ html, body {
     justify-content: space-between;
     align-items: center;
     height: 80px;
-    padding-top: 10px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
 
 .butao:hover{
@@ -43,14 +43,10 @@ html, body {
     width: 100px;
 }
 
-.sfimg, .salesforceIcon {
-    width: 95px;
-    height: 65px;
-}
-
-.sfimg, .salesforceIcon:hover {
-    width: 100px;
-    height: 70px;
+.sfimg {
+    width: 60px;
+    height: auto;
+    margin-right: 10px;
 }
 
 .aboutEhome{

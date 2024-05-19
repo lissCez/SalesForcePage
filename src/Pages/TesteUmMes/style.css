@@ -40,7 +40,6 @@
     display: flex;
     align-items: center;
     flex-direction: column;
-    /* padding-left: 25px; */
     background: linear-gradient(180deg, #50C8AD 0%, #E4F5FF 100%);
     border-radius: 30px;
 
@@ -150,9 +149,10 @@ button{
     flex-direction: column;
     align-items: center;
 
-    width: 262px;
+    width: 80vw;
     height: 51px;
     top: 758px;
+    padding-bottom: 15px;
 
     font-family: Inter;
     font-size: 14px;

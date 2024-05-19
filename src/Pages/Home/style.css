@@ -2,6 +2,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Medula+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
 
+
+button{
+    cursor: pointer;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
 .Link{
     text-decoration: none;
     color: #fff;
@@ -129,7 +142,7 @@ h3{
 }
 
 #img5{
-    width: 100%;
+    width: 100vw;
 }
 
 .dbaixoimg{
@@ -138,6 +151,9 @@ h3{
     align-items: center;
     padding-top: 30px;
     background-color: #172832;
+    margin: 0;
+    width: 100vw;
+    height: 100%;
 }
 
 #gradiente{
@@ -215,6 +231,10 @@ h3{
 
 #bfFooter{
     background-color: #fff;
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100%;
 }
 
 .perguntas{

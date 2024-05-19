@@ -3,6 +3,7 @@ import brasilia1 from "../../assets/brasilia.png";
 import Footer from '../../Components/Footer';
 import Menu from '../../Components/Header/Header';
 import determineHeaderColor from "../../Components/Header/determineHeaderColor";
+import { Link } from "react-router-dom";
 
 const Teste10Minutos = () => {
   return (
@@ -33,7 +34,7 @@ const Teste10Minutos = () => {
           Deseja se conectar em uma 
             <b>
               <br/>
-              <u>conta já existente?</u>
+              <Link className='Link' to= '/Login'>conta já existente?</Link>
             </b>
           </p>
         </div>

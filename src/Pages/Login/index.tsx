@@ -3,6 +3,7 @@ import rjImg from "../../assets/rjImg.png";
 import Footer from "../../Components/Footer";
 import Menu from "../../Components/Header/Header";
 import determineHeaderColor from "../../Components/Header/determineHeaderColor";
+import { Link } from "react-router-dom";
 
 const Login = () => {
   return (
@@ -37,7 +38,7 @@ const Login = () => {
             Não tem uma conta?
             <b>
               <br />
-              <u>Cadastre-se</u>
+              <Link className='Link' to= '/TesteUmMes'>Cadastre-se</Link>
             </b>
           </p>
         </div>

@@ -1,6 +1,5 @@
 import { Link } from "react-router-dom";
 import './style.css';
-import github from '../../assets/image 36.png';
 
 
 const Footer = () => {
@@ -26,18 +25,15 @@ const Footer = () => {
                     <a href="https://www.salesforce.com/br/company/program-agreement/" target="_blank" rel="noopener noreferrer">Termos de uso</a>
                 </section>
                 <section id="social">
-                    <h1>Social</h1>
+                    <h1>Medias</h1>
                     <div className="icon">
                         <div className="github">
-                            <img src={github} alt="imagem da logo vazado do aplicativo GitHub"></img>
                             <a href="https://github.com/lissCez">Alissa</a>
                         </div>
                         <div className="github">
-                            <img src={github} alt="imagem da logo vazado do aplicativo GitHub"></img>
                             <a href="https://github.com/migermano">Mirella</a>
                         </div>
                         <div className="github">
-                            <img src={github} alt="imagem da logo vazado do aplicativo GitHub"></img>
                             <a href="https://github.com/melissabsouza">Melissa</a>
                         </div>
                     </div>

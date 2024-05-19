@@ -1,10 +1,16 @@
 #footer{
-    margin-top: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
+    margin: 0;
+    width: 90vw;
+    height:100%;
+    font-family: 'Inter', sans-serif;
     color: #1E5B5A;
-    background-color: white;
 }
 
 #info{
@@ -23,31 +29,27 @@
 }
 
 .github{
-    display: flex;
-    align-items: center;
-    height: 50%;
     margin-bottom: 9%;
-    gap: 10px;
 }
 
-.link .linkinho, #about a ,#help a, .icon{
+.icon {
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+}
+
+#info, #about ,#help, .icon{
+    font-size: 80%;
+    width: 70%;
+}
+
+.link .linkinho, #about a ,#help a, .icon a{
     display: flex;
     justify-content: center;
     flex-direction: column;
-    padding-left: 50%;
     text-decoration: none;
     color: #1E5B5A;
-}
-
-.github a {
-    text-decoration: none;
-    color: #1E5B5A;
-}
-
-.github img{
-    width: 80%;
-    background-color: #1E5B5A;
-    border-radius: 100%;
+    font-size: 75%;
 }
 
 section h1{

@@ -1,14 +1,14 @@
 import './style.css';
+import Img from '../../assets/salesforceIcon.png'
+import IconGithub from '../../assets/youtube.png'
+import IconLinkedin from '../../assets/youtube.png'
 
-type CardAbout = { 
-    Img: string, 
+type CardAbout = {
     Nome: string, 
     Rm: string,
-    IconGithub: string,
-    IconLinkedin: string
 }
 
-const Card = ({ Img, Nome, Rm, IconGithub, IconLinkedin }: CardAbout) => {
+const Card = ({ Nome, Rm }: CardAbout) => {
     return ( 
         <>
             <div className="principal">

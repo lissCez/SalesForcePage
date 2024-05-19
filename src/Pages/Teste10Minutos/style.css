@@ -72,7 +72,7 @@
 }
 
 .whiteText{
-    color:rgb(78, 153, 202);
+    color:rgb(89, 152, 194);
     font-family: Inter;
     font-size: 15px;
     font-weight: 500;
@@ -144,7 +144,7 @@ p{
     font-weight: 600;
     line-height: 35px;
     text-align: left;
-    color: rgba(228, 245, 255, 1);
+    color: rgb(128, 185, 218);
 }
 
 ul{

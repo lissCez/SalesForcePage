@@ -67,12 +67,12 @@ const Home: React.FC = () => {
                     <div id="gradiente">
                         <div className='divisor'>
                             <p id='fonte1'>Afinal, que é CRM?</p>
-                            <p id='fonte2'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea</p>
+                            <p id='fonte2'>Já sabemos que CRM é a sigla usada para "Customer Relationship Management" (Gestão de Relacionamento com o Cliente). Porém, a definição de CRM vai além: é uma gestão 360º de vendas, marketing, atendimento e todos os pontos de contato. Estamos na era do cliente, da transformação digital, das novas tecnologias.</p>
                             <p id='fonte3'>Encontre inovações para qualquer setor de indústria.</p>
                         </div>
                     </div>
                     <p id='fonte4'>Seja qual for a sua indústria, oferecemos soluções para modernizar o seu negócio, economizar tempo e reduzir custos.</p>
-                    <button id='botao2'><Link className='Link' to= '/Quiz'>Realize um Quiz rápido e descubra qual a licença combina com a sua empresa!</Link></button>
+                    <button id='botao2'><Link className='Link' to= '/Teste10Minutos'>Realize um teste rápido e descubra qual a licença combina com a sua empresa!</Link></button>
                     <div id="grupoIndustrias">
                         <img id='imggp1' src={grupo1}/>
                         <img id='imggp2' src={grupo2}/>
@@ -80,8 +80,6 @@ const Home: React.FC = () => {
                         <img id='imggp4' src={grupo4}/>
                     </div>
                 </section>
-
-
                 <div id="bfFooter">
                     <div className='perguntas'>
                         <h1>Perguntas? Fale conosco</h1>
