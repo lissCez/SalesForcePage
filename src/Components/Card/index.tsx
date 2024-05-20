@@ -1,7 +1,7 @@
+import GitHub from "../../assets/image 35.png";
+import Alissa from "../../assets/Rectangle 55.png";
+import Linkedin from "../../assets/image 36.png";
 import './style.css';
-import Img from '../../assets/salesforceIcon.png'
-import IconGithub from '../../assets/youtube.png'
-import IconLinkedin from '../../assets/youtube.png'
 
 type CardAbout = {
     Nome: string, 
@@ -13,7 +13,7 @@ const Card = ({ Nome, Rm }: CardAbout) => {
         <>
             <div className="principal">
                 <div className="imagens">
-                    <img className="img" src={Img} alt="imagens" />
+                    <img className="img" src={Alissa} alt="imagens" />
                 </div>
 
                 <div className="container">
@@ -23,8 +23,8 @@ const Card = ({ Nome, Rm }: CardAbout) => {
                     </div>
 
                     <div>
-                        <img className="icone" src={IconGithub} alt="github"/>
-                        <img className="icone" src={IconLinkedin} alt="linkedin"/>               
+                        <img className="icone" src={GitHub} alt="github"/>
+                        <img className="icone" src={Linkedin} alt="linkedin"/>               
                     </div>
                 </div>      
             </div>
