@@ -14,6 +14,10 @@
     align-items: center;
 }
 
+button{
+    cursor: pointer;
+}
+
 .textBoldL{
     margin-bottom: 20px;
     color:#558919;
@@ -162,7 +166,7 @@ h4{
     font-weight: 500;
     line-height: 29.05px;
     text-align: center;
-
+    cursor: pointer;
 }
 
 #fromsContent{

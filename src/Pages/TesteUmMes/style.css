@@ -128,6 +128,7 @@ button{
     font-weight: 500;
     line-height: 29.05px;
     text-align: center;
+    cursor: pointer;
 }
 
 ::placeholder{

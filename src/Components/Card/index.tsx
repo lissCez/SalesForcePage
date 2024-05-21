@@ -1,19 +1,19 @@
 import GitHub from "../../assets/image 35.png";
-import Alissa from "../../assets/Rectangle 55.png";
 import Linkedin from "../../assets/image 36.png";
 import './style.css';
 
 type CardAbout = {
+    IMG:any,
     Nome: string, 
-    Rm: string,
+    Rm: string
 }
 
-const Card = ({ Nome, Rm }: CardAbout) => {
+const Card = ({ IMG, Nome, Rm }: CardAbout) => {
     return ( 
         <>
             <div className="principal">
                 <div className="imagens">
-                    <img className="img" src={Alissa} alt="imagens" />
+                    <img className="img" src={IMG} alt="imagens" />
                 </div>
 
                 <div className="container">
